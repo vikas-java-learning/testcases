@@ -18,9 +18,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 
-public class StarwarPersonTests extends BaseTest {
+public class UsersTests extends BaseTest {
 
-    private Logger logger = Logger.getLogger(StarwarPersonTests.class);
+    private Logger logger = Logger.getLogger(UsersTests.class);
 
     @Test
     public void getUsersTest() {
