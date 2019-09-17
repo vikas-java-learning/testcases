@@ -1,0 +1,123 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+HTTP Request,10,2078,1504,2535,318.65,0.000%,1.43658,2.38,0.35,1696.0
+TOTAL,10,2078,1504,2535,318.65,0.000%,1.43658,2.38,0.35,1696.0
+1568746240588,17396,swapi-get-planets,200,OK,Thread Group 1-2,text,true,,1696,252,10,10,https://swapi.co/api/planets/1/,519,0,232
+1568746241088,16896,swapi-get-planets,200,OK,Thread Group 1-3,text,true,,1696,252,10,10,https://swapi.co/api/planets/1/,554,0,301
+1568746240233,17751,swapi-get-planets,200,OK,Thread Group 1-1,text,true,,1696,252,10,10,https://swapi.co/api/planets/1/,874,0,541
+1568746241088,554,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-3,,true,,290,126,10,10,http://swapi.co/api/planets/1/,554,0,301
+1568746241588,16396,swapi-get-planets,200,OK,Thread Group 1-4,text,true,,1696,252,10,10,https://swapi.co/api/planets/1/,420,0,197
+1568746240588,519,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-2,,true,,290,126,10,10,http://swapi.co/api/planets/1/,519,0,232
+1568746241643,16341,swapi-get-planets-1,200,OK,Thread Group 1-3,text,true,,1406,126,10,10,https://swapi.co/api/planets/1/,16339,0,731
+1568746240233,874,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-1,,true,,290,126,10,10,http://swapi.co/api/planets/1/,874,0,541
+1568746241109,16875,swapi-get-planets-1,200,OK,Thread Group 1-2,text,true,,1406,126,10,10,https://swapi.co/api/planets/1/,16872,0,1036
+1568746241588,420,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-4,,true,,290,126,10,10,http://swapi.co/api/planets/1/,420,0,197
+1568746241109,16875,swapi-get-planets-1,200,OK,Thread Group 1-1,text,true,,1406,126,10,10,https://swapi.co/api/planets/1/,16872,0,1021
+1568746242010,15974,swapi-get-planets-1,200,OK,Thread Group 1-4,text,true,,1406,126,10,10,https://swapi.co/api/planets/1/,15971,0,713
+1568746243090,15300,swapi-get-planets,200,OK,Thread Group 1-7,text,true,,1696,252,6,6,https://swapi.co/api/planets/1/,613,0,347
+1568746242092,16298,swapi-get-planets,200,OK,Thread Group 1-5,text,true,,1696,252,6,6,https://swapi.co/api/planets/1/,419,0,201
+1568746243090,613,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-7,,true,,290,126,6,6,http://swapi.co/api/planets/1/,613,0,347
+1568746242092,419,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-5,,true,,290,126,6,6,http://swapi.co/api/planets/1/,419,0,201
+1568746242588,15802,swapi-get-planets,200,OK,Thread Group 1-6,text,true,,1696,252,6,6,https://swapi.co/api/planets/1/,1443,0,1222
+1568746243705,14685,swapi-get-planets-1,200,OK,Thread Group 1-7,text,true,,1406,126,6,6,https://swapi.co/api/planets/1/,14685,0,666
+1568746242512,15878,swapi-get-planets-1,200,OK,Thread Group 1-5,text,true,,1406,126,6,6,https://swapi.co/api/planets/1/,15878,0,925
+1568746242588,1443,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-6,,true,,290,126,6,6,http://swapi.co/api/planets/1/,1443,0,1222
+1568746244032,14358,swapi-get-planets-1,200,OK,Thread Group 1-6,text,true,,1406,126,6,6,https://swapi.co/api/planets/1/,14358,0,711
+1568746243586,14845,swapi-get-planets,200,OK,Thread Group 1-8,text,true,,1696,252,3,3,https://swapi.co/api/planets/1/,449,0,224
+1568746243586,449,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-8,,true,,290,126,3,3,http://swapi.co/api/planets/1/,449,0,224
+1568746244036,14395,swapi-get-planets-1,200,OK,Thread Group 1-8,text,true,,1406,126,3,3,https://swapi.co/api/planets/1/,14394,0,696
+1568746244087,14445,swapi-get-planets,200,OK,Thread Group 1-9,text,true,,1696,252,2,2,https://swapi.co/api/planets/1/,463,0,224
+1568746244087,463,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-9,,true,,290,126,2,2,http://swapi.co/api/planets/1/,463,0,224
+1568746244551,13981,swapi-get-planets-1,200,OK,Thread Group 1-9,text,true,,1406,126,2,2,https://swapi.co/api/planets/1/,13981,0,692
+1568746244588,14131,swapi-get-planets,200,OK,Thread Group 1-10,text,true,,1696,252,1,1,https://swapi.co/api/planets/1/,463,0,223
+1568746244588,463,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-10,,true,,290,126,1,1,http://swapi.co/api/planets/1/,463,0,223
+1568746245053,13666,swapi-get-planets-1,200,OK,Thread Group 1-10,text,true,,1406,126,1,1,https://swapi.co/api/planets/1/,13666,0,1048
+1568746314464,3262,swapi-get-planets,200,OK,Thread Group 1-1,text,true,,1696,252,7,7,https://swapi.co/api/planets/1/,859,0,449
+1568746314464,859,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-1,,true,,290,126,7,7,http://swapi.co/api/planets/1/,859,0,449
+1568746315325,2401,swapi-get-planets-1,200,OK,Thread Group 1-1,text,true,,1406,126,7,7,https://swapi.co/api/planets/1/,2400,0,1431
+1568746314963,3506,swapi-get-planets,200,OK,Thread Group 1-2,text,true,,1696,252,8,8,https://swapi.co/api/planets/1/,975,0,360
+1568746314963,975,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-2,,true,,290,126,8,8,http://swapi.co/api/planets/1/,975,0,360
+1568746315939,2530,swapi-get-planets-1,200,OK,Thread Group 1-2,text,true,,1406,126,8,8,https://swapi.co/api/planets/1/,2530,0,1087
+1568746316465,2340,swapi-get-planets,200,OK,Thread Group 1-5,text,true,,1696,252,7,7,https://swapi.co/api/planets/1/,518,0,291
+1568746315468,3337,swapi-get-planets,200,OK,Thread Group 1-3,text,true,,1696,252,7,7,https://swapi.co/api/planets/1/,879,0,469
+1568746316465,518,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-5,,true,,290,126,7,7,http://swapi.co/api/planets/1/,518,0,291
+1568746315468,879,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-3,,true,,290,126,7,7,http://swapi.co/api/planets/1/,879,0,469
+1568746316984,1821,swapi-get-planets-1,200,OK,Thread Group 1-5,text,true,,1406,126,7,7,https://swapi.co/api/planets/1/,1821,0,681
+1568746316348,2457,swapi-get-planets-1,200,OK,Thread Group 1-3,text,true,,1406,126,7,7,https://swapi.co/api/planets/1/,2457,0,918
+1568746315963,2952,swapi-get-planets,200,OK,Thread Group 1-4,text,true,,1696,252,5,5,https://swapi.co/api/planets/1/,793,0,383
+1568746315963,793,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-4,,true,,290,126,5,5,http://swapi.co/api/planets/1/,793,0,383
+1568746316757,2158,swapi-get-planets-1,200,OK,Thread Group 1-4,text,true,,1406,126,5,5,https://swapi.co/api/planets/1/,2157,0,762
+1568746316963,2269,swapi-get-planets,200,OK,Thread Group 1-6,text,true,,1696,252,5,5,https://swapi.co/api/planets/1/,440,0,224
+1568746316963,440,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-6,,true,,290,126,5,5,http://swapi.co/api/planets/1/,440,0,224
+1568746317405,1827,swapi-get-planets-1,200,OK,Thread Group 1-6,text,true,,1406,126,5,5,https://swapi.co/api/planets/1/,1826,0,699
+1568746317466,2295,swapi-get-planets,200,OK,Thread Group 1-7,text,true,,1696,252,4,4,https://swapi.co/api/planets/1/,477,0,243
+1568746317466,477,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-7,,true,,290,126,4,4,http://swapi.co/api/planets/1/,477,0,243
+1568746317945,1816,swapi-get-planets-1,200,OK,Thread Group 1-7,text,true,,1406,126,4,4,https://swapi.co/api/planets/1/,1813,0,860
+1568746317967,2146,swapi-get-planets,200,OK,Thread Group 1-8,text,true,,1696,252,3,3,https://swapi.co/api/planets/1/,502,0,220
+1568746317967,502,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-8,,true,,290,126,3,3,http://swapi.co/api/planets/1/,502,0,220
+1568746318471,1642,swapi-get-planets-1,200,OK,Thread Group 1-8,text,true,,1406,126,3,3,https://swapi.co/api/planets/1/,1642,0,819
+1568746318463,1970,swapi-get-planets,200,OK,Thread Group 1-9,text,true,,1696,252,2,2,https://swapi.co/api/planets/1/,572,0,341
+1568746318463,572,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-9,,true,,290,126,2,2,http://swapi.co/api/planets/1/,572,0,341
+1568746319036,1397,swapi-get-planets-1,200,OK,Thread Group 1-9,text,true,,1406,126,2,2,https://swapi.co/api/planets/1/,1397,0,714
+1568746318968,2090,swapi-get-planets,200,OK,Thread Group 1-10,text,true,,1696,252,1,1,https://swapi.co/api/planets/1/,463,0,218
+1568746318968,463,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-10,,true,,290,126,1,1,http://swapi.co/api/planets/1/,463,0,218
+1568746319432,1626,swapi-get-planets-1,200,OK,Thread Group 1-10,text,true,,1406,126,1,1,https://swapi.co/api/planets/1/,1626,0,766
+1568746378575,2120,swapi-get-planets,200,OK,Thread Group 1-1,text,true,,1696,252,5,5,https://swapi.co/api/planets/1/,850,0,440
+1568746378575,850,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-1,,true,,290,126,5,5,http://swapi.co/api/planets/1/,850,0,440
+1568746379427,1268,swapi-get-planets-1,200,OK,Thread Group 1-1,text,true,,1406,126,5,5,https://swapi.co/api/planets/1/,1268,0,696
+1568746379078,1867,swapi-get-planets,200,OK,Thread Group 1-2,text,true,,1696,252,4,4,https://swapi.co/api/planets/1/,574,0,347
+1568746379078,574,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-2,,true,,290,126,4,4,http://swapi.co/api/planets/1/,574,0,347
+1568746379653,1292,swapi-get-planets-1,200,OK,Thread Group 1-2,text,true,,1406,126,4,4,https://swapi.co/api/planets/1/,1292,0,697
+1568746379578,1803,swapi-get-planets,200,OK,Thread Group 1-3,text,true,,1696,252,4,4,https://swapi.co/api/planets/1/,456,0,216
+1568746379578,456,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-3,,true,,290,126,4,4,http://swapi.co/api/planets/1/,456,0,216
+1568746380035,1346,swapi-get-planets-1,200,OK,Thread Group 1-3,text,true,,1406,126,4,4,https://swapi.co/api/planets/1/,1346,0,689
+1568746380081,1723,swapi-get-planets,200,OK,Thread Group 1-4,text,true,,1696,252,4,4,https://swapi.co/api/planets/1/,422,0,191
+1568746380081,422,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-4,,true,,290,126,4,4,http://swapi.co/api/planets/1/,422,0,191
+1568746380504,1300,swapi-get-planets-1,200,OK,Thread Group 1-4,text,true,,1406,126,4,4,https://swapi.co/api/planets/1/,1299,0,690
+1568746380578,1788,swapi-get-planets,200,OK,Thread Group 1-5,text,true,,1696,252,4,4,https://swapi.co/api/planets/1/,471,0,215
+1568746380578,471,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-5,,true,,290,126,4,4,http://swapi.co/api/planets/1/,471,0,215
+1568746381050,1316,swapi-get-planets-1,200,OK,Thread Group 1-5,text,true,,1406,126,4,4,https://swapi.co/api/planets/1/,1315,0,711
+1568746381080,1780,swapi-get-planets,200,OK,Thread Group 1-6,text,true,,1696,252,4,4,https://swapi.co/api/planets/1/,454,0,196
+1568746381080,454,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-6,,true,,290,126,4,4,http://swapi.co/api/planets/1/,454,0,196
+1568746381535,1325,swapi-get-planets-1,200,OK,Thread Group 1-6,text,true,,1406,126,4,4,https://swapi.co/api/planets/1/,1325,0,717
+1568746382081,1477,swapi-get-planets,200,OK,Thread Group 1-8,text,true,,1696,252,4,4,https://swapi.co/api/planets/1/,448,0,217
+1568746382081,448,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-8,,true,,290,126,4,4,http://swapi.co/api/planets/1/,448,0,217
+1568746382531,1027,swapi-get-planets-1,200,OK,Thread Group 1-8,text,true,,1406,126,4,4,https://swapi.co/api/planets/1/,1026,0,696
+1568746381579,2312,swapi-get-planets,200,OK,Thread Group 1-7,text,true,,1696,252,3,3,https://swapi.co/api/planets/1/,453,0,220
+1568746381579,453,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-7,,true,,290,126,3,3,http://swapi.co/api/planets/1/,453,0,220
+1568746382033,1858,swapi-get-planets-1,200,OK,Thread Group 1-7,text,true,,1406,126,3,3,https://swapi.co/api/planets/1/,1857,0,710
+1568746382581,2169,swapi-get-planets,200,OK,Thread Group 1-9,text,true,,1696,252,2,2,https://swapi.co/api/planets/1/,427,0,213
+1568746382581,427,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-9,,true,,290,126,2,2,http://swapi.co/api/planets/1/,427,0,213
+1568746383008,1742,swapi-get-planets-1,200,OK,Thread Group 1-9,text,true,,1406,126,2,2,https://swapi.co/api/planets/1/,1742,0,702
+1568746383075,1869,swapi-get-planets,200,OK,Thread Group 1-10,text,true,,1696,252,1,1,https://swapi.co/api/planets/1/,534,0,249
+1568746383075,534,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-10,,true,,290,126,1,1,http://swapi.co/api/planets/1/,534,0,249
+1568746383610,1334,swapi-get-planets-1,200,OK,Thread Group 1-10,text,true,,1406,126,1,1,https://swapi.co/api/planets/1/,1334,0,703
+1568746478805,2786,swapi-get-planets,200,OK,Thread Group 1-1,text,true,,1696,252,6,6,https://swapi.co/api/planets/1/,972,0,507
+1568746478805,972,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-1,,true,,290,126,6,6,http://swapi.co/api/planets/1/,972,0,507
+1568746479779,1812,swapi-get-planets-1,200,OK,Thread Group 1-1,text,true,,1406,126,6,6,https://swapi.co/api/planets/1/,1811,0,1164
+1568746479308,2576,swapi-get-planets,200,OK,Thread Group 1-2,text,true,,1696,252,6,6,https://swapi.co/api/planets/1/,879,0,469
+1568746479308,879,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-2,,true,,290,126,6,6,http://swapi.co/api/planets/1/,879,0,469
+1568746480188,1696,swapi-get-planets-1,200,OK,Thread Group 1-2,text,true,,1406,126,6,6,https://swapi.co/api/planets/1/,1696,0,1088
+1568746479811,2297,swapi-get-planets,200,OK,Thread Group 1-3,text,true,,1696,252,5,5,https://swapi.co/api/planets/1/,786,0,375
+1568746479811,786,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-3,,true,,290,126,5,5,http://swapi.co/api/planets/1/,786,0,375
+1568746480598,1510,swapi-get-planets-1,200,OK,Thread Group 1-3,text,true,,1406,126,5,5,https://swapi.co/api/planets/1/,1510,0,921
+1568746480310,2107,swapi-get-planets,200,OK,Thread Group 1-4,text,true,,1696,252,5,5,https://swapi.co/api/planets/1/,611,0,286
+1568746480310,611,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-4,,true,,290,126,5,5,http://swapi.co/api/planets/1/,611,0,286
+1568746480922,1495,swapi-get-planets-1,200,OK,Thread Group 1-4,text,true,,1406,126,5,5,https://swapi.co/api/planets/1/,1495,0,894
+1568746480810,2015,swapi-get-planets,200,OK,Thread Group 1-5,text,true,,1696,252,5,5,https://swapi.co/api/planets/1/,475,0,220
+1568746480810,475,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-5,,true,,290,126,5,5,http://swapi.co/api/planets/1/,475,0,220
+1568746481286,1539,swapi-get-planets-1,200,OK,Thread Group 1-5,text,true,,1406,126,5,5,https://swapi.co/api/planets/1/,1539,0,927
+1568746481306,2118,swapi-get-planets,200,OK,Thread Group 1-6,text,true,,1696,252,5,5,https://swapi.co/api/planets/1/,536,0,249
+1568746481306,536,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-6,,true,,290,126,5,5,http://swapi.co/api/planets/1/,536,0,249
+1568746481843,1581,swapi-get-planets-1,200,OK,Thread Group 1-6,text,true,,1406,126,5,5,https://swapi.co/api/planets/1/,1580,0,982
+1568746481812,2111,swapi-get-planets,200,OK,Thread Group 1-7,text,true,,1696,252,4,4,https://swapi.co/api/planets/1/,625,0,200
+1568746481812,625,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-7,,true,,290,126,4,4,http://swapi.co/api/planets/1/,625,0,200
+1568746482438,1485,swapi-get-planets-1,200,OK,Thread Group 1-7,text,true,,1406,126,4,4,https://swapi.co/api/planets/1/,1484,0,858
+1568746482312,1956,swapi-get-planets,200,OK,Thread Group 1-8,text,true,,1696,252,3,3,https://swapi.co/api/planets/1/,520,0,224
+1568746482312,520,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-8,,true,,290,126,3,3,http://swapi.co/api/planets/1/,520,0,224
+1568746482833,1435,swapi-get-planets-1,200,OK,Thread Group 1-8,text,true,,1406,126,3,3,https://swapi.co/api/planets/1/,1435,0,791
+1568746483311,3021,swapi-get-planets,200,OK,Thread Group 1-10,text,true,,1696,252,2,2,https://swapi.co/api/planets/1/,474,0,252
+1568746482810,3522,swapi-get-planets,200,OK,Thread Group 1-9,text,true,,1696,252,2,2,https://swapi.co/api/planets/1/,523,0,246
+1568746483311,474,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-10,,true,,290,126,2,2,http://swapi.co/api/planets/1/,474,0,252
+1568746482810,523,swapi-get-planets-0,301,Moved Permanently,Thread Group 1-9,,true,,290,126,2,2,http://swapi.co/api/planets/1/,523,0,246
+1568746483786,2546,swapi-get-planets-1,200,OK,Thread Group 1-10,text,true,,1406,126,2,2,https://swapi.co/api/planets/1/,2545,0,765
+1568746483334,2998,swapi-get-planets-1,200,OK,Thread Group 1-9,text,true,,1406,126,2,2,https://swapi.co/api/planets/1/,2997,0,764

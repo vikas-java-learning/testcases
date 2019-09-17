@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StarwarPersonTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-09-14T11:53:50" hostname="Macbooks-MacBook-Pro.local" time="6.696">
+<testsuite name="StarwarPersonTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-09-14T13:12:55" hostname="Macbooks-MacBook-Pro.local" time="6.907">
   <properties/>
-  <testcase name="getUsersAsJson" classname="StarwarPersonTests" time="2.25"/>
-  <testcase name="getUsersAsModel" classname="StarwarPersonTests" time="0.652"/>
-  <testcase name="getUsersTest" classname="StarwarPersonTests" time="0.289"/>
-  <testcase name="testCreateUser" classname="StarwarPersonTests" time="0.732"/>
-  <testcase name="testDeleteUser" classname="StarwarPersonTests" time="0.565"/>
-  <testcase name="testListOfUsers" classname="StarwarPersonTests" time="0.64"/>
-  <testcase name="testUpdateUser" classname="StarwarPersonTests" time="0.879"/>
-  <testcase name="testUserNotFound" classname="StarwarPersonTests" time="0.68"/>
-  <system-out><![CDATA[{last_name=Bluth, id=1, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg, first_name=George, email=george.bluth@reqres.in}
-]]></system-out>
+  <testcase name="getUsersAsJson" classname="StarwarPersonTests" time="2.569"/>
+  <testcase name="getUsersAsModel" classname="StarwarPersonTests" time="0.649"/>
+  <testcase name="getUsersTest" classname="StarwarPersonTests" time="0.3"/>
+  <testcase name="testCreateUser" classname="StarwarPersonTests" time="0.737"/>
+  <testcase name="testDeleteUser" classname="StarwarPersonTests" time="0.672"/>
+  <testcase name="testListOfUsers" classname="StarwarPersonTests" time="0.582"/>
+  <testcase name="testUpdateUser" classname="StarwarPersonTests" time="0.692"/>
+  <testcase name="testUserNotFound" classname="StarwarPersonTests" time="0.697"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
