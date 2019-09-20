@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.seleniumcases.WelcomeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-09-20T14:30:19" hostname="RAJPUT" time="122.429">
+  <properties/>
+  <testcase name="checkOutItem" classname="com.seleniumcases.WelcomeTest" time="28.599"/>
+  <testcase name="clickOnWelcomeLink" classname="com.seleniumcases.WelcomeTest" time="21.783"/>
+  <testcase name="herbalTeaMenuItems" classname="com.seleniumcases.WelcomeTest" time="24.381"/>
+  <testcase name="placeOrder" classname="com.seleniumcases.WelcomeTest" time="47.658"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
