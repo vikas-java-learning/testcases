@@ -1,5 +1,6 @@
 package com.seleniumcases;
 
+import com.seleniumcases.util.ApplicationProperties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -13,28 +14,28 @@ public class BaseTest {
     protected WebDriver driver;
 
     @BeforeSuite
-    public void beforeSuite() {
-        System.out.println("Start");
+    public void beforeSuite () {
+        System.out.println ( "Start" );
     }
 
     @BeforeTest
-    public void beforeTest() {
-        System.out.println("before test");
-        System.setProperty("webdriver.chrome.driver", "/home/vikas-rajput/Documents/extreme-learning/chromedriver");
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--start-maximized");
-        driver = new ChromeDriver(chromeOptions);
+    public void beforeTest () {
+        System.out.println ( "before test" );
+        System.setProperty ( "webdriver.chrome.driver", ApplicationProperties.INSTANCE.getChromeDriver () );
+        ChromeOptions chromeOptions = new ChromeOptions ();
+        chromeOptions.addArguments ( "--start-maximized" );
+        driver = new ChromeDriver ( chromeOptions );
     }
 
     @AfterTest
-    public void afterTest() {
-        System.out.println("after test");
-        driver.close();
-        driver.quit();
+    public void afterTest () {
+        System.out.println ( "after test" );
+        driver.close ();
+        driver.quit ();
     }
 
     @AfterSuite
-    public void afterSuite() {
-        System.out.println("End");
+    public void afterSuite () {
+        System.out.println ( "End" );
     }
 }

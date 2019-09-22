@@ -8,16 +8,20 @@ public enum ApplicationProperties {
 
     private final Properties properties;
 
-    ApplicationProperties() {
-        properties = new Properties();
+    ApplicationProperties () {
+        properties = new Properties ();
         try {
-            properties.load(getClass().getClassLoader().getResourceAsStream("application.properties"));
+            properties.load ( getClass ().getClassLoader ().getResourceAsStream ( "application.properties" ) );
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace ();
         }
     }
 
-    public String getBaseUrl() {
-        return properties.getProperty("baseUrl");
+    public String getBaseUrl () {
+        return properties.getProperty ( "baseUrl" );
+    }
+
+    public String getChromeDriver () {
+        return properties.getProperty ( "chromeDriver" );
     }
 }

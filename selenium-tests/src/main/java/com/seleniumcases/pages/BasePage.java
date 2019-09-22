@@ -6,11 +6,11 @@ public class BasePage {
 
     protected WebDriver driver;
 
-    public BasePage(WebDriver driver) {
+    public BasePage ( WebDriver driver ) {
         this.driver = driver;
     }
 
-    public WebDriver getWebDriver() {
+    public WebDriver getWebDriver () {
         return driver;
     }
 }
