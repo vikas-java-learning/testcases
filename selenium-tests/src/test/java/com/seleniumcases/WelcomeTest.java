@@ -12,6 +12,7 @@ public class WelcomeTest extends BaseTest {
 
     private WelcomePage welcomePage;
 
+
     @Test
     public void clickOnWelcomeLink () {
         welcomePage = new WelcomePage ( driver );

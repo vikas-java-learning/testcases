@@ -48,7 +48,6 @@ public class WelcomePage extends BasePage {
     public WelcomePage ( WebDriver driver ) {
         super ( driver );
         PageFactory.initElements ( getWebDriver (), this );
-        getWebDriver ().get ( url );
     }
 
 }
