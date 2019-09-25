@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
-public class WelcomeTest extends BaseTest {
+public class WelcomeTest_SingleBrowser extends BaseTest_SingleBrowser {
 
     private WelcomePage welcomePage;
 

@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class BaseTest {
+public class BaseTest_SingleBrowser {
 
     protected WebDriver driver;
 
